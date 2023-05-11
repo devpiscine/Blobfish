@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-
 }
 body {
   background: linear-gradient(#0f2027, #203a43, #2c5364);
@@ -21,7 +20,8 @@ body {
   box-shadow: 1px 2px 27px 2px #000000;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-size: 120px;
   color: #f4f1bb;
   font-family: "Pacifico", cursive;
@@ -32,11 +32,11 @@ h1, h2 {
 }
 
 .text {
-width: 90%;
-margin: 50px auto;
-font-size: 2rem;
-font-family: "Oswald", sans-serif;
-text-align: left;
+  width: 90%;
+  margin: 50px auto;
+  font-size: 2rem;
+  font-family: "Oswald", sans-serif;
+  text-align: left;
 }
 
 .fa-hand-holding-heart {
@@ -53,7 +53,7 @@ ul {
   justify-content: space-between;
   width: 95%;
   align-items: center;
-  background-color: rgba(224,225,221,0.1);
+  background-color: rgba(224, 225, 221, 0.1);
   border-radius: 20px;
 }
 
@@ -107,61 +107,64 @@ li.dropdown {
   display: block;
 }
 
-
-
 table {
-    border: 1px solid black;
-    border-collapse: collapse;
-    margin: 50px auto;
-    font-family: "Oswald", sans-serif;
-    font-size: 40px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 50px auto;
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
 }
-td, th {
-    border: 2px solid black;
-    padding: 10px 10px;
-}
-
-form{
-    display: flex;
-    text-align: left;
-    justify-content: center;
-    font-family: "Oswald", sans-serif;
-    align-items:center;
-    margin-bottom: 100px;
+td,
+th {
+  border: 2px solid black;
+  padding: 10px 10px;
 }
 
-.name, .address, .mail, .telephone{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
-    width: 50%;
+form {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  font-family: "Oswald", sans-serif;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.name,
+.address,
+.mail,
+.telephone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 50%;
 }
 
 .first {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 40%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 40%;
 }
 
-input, textarea{
-    padding: 10px 10px;
-    border-radius: 15px;
-    font-family: "Oswald", sans-serif;
-    border: none;
-    width: 70%;
+input,
+textarea {
+  padding: 10px 10px;
+  border-radius: 15px;
+  font-family: "Oswald", sans-serif;
+  border: none;
+  width: 70%;
 }
 
-.comment{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    gap: 30px;
+.comment {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin: 30px auto;
 }
 
-#send{
-    width: 50%;
+#send {
+  width: 50%;
+  margin: auto;
 }
-
