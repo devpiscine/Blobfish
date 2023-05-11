@@ -19,7 +19,7 @@ body {
   box-shadow: 1px 2px 27px 2px #000000;
 }
 
-h1 {
+h1, h2 {
   font-size: 120px;
   color: #f4f1bb;
   font-family: "Pacifico", cursive;
@@ -30,10 +30,11 @@ h1 {
 }
 
 .text {
-  width: 50%;
-  margin: auto;
+width: 90%;
+margin: auto;
   font-size: 2rem;
   font-family: "Oswald", sans-serif;
+  text-align: left;
 }
 
 .fa-hand-holding-heart {
@@ -102,4 +103,18 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 50px auto;
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+}
+td, th {
+    border: 2px solid black;
+    padding: 10px 10px;
 }
