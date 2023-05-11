@@ -33,7 +33,7 @@
       <i class="fa-solid fa-hand-holding-heart"></i>
       <nav>
         <ul>
-          <li><a href="">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="">Galery</a></li>
           <li class="dropdown">
             <a href="javascript:void(0)" class="dropbtn">Contact</a>
@@ -54,19 +54,57 @@
           id="blob"
         />
       </div>
-      <div class="text">
-        <p>
-            Le blobfish (Psychrolutes marcidus) est une espèce de poisson qui vit dans les eaux profondes de l'océan Austral, autour de l'Australie, de la Nouvelle-Zélande et de la Tasmanie. Connu pour sa tête peu commune et son apparence peu attrayante, le blobfish est souvent surnommé "le poisson le plus moche du monde".
-
-            Malgré son apparence peu flatteuse, le blobfish joue un rôle important dans l'écosystème océanique. Il se nourrit principalement de crustacés, de mollusques et de petits poissons, et est lui-même une source de nourriture pour les prédateurs plus grands tels que les requins et les phoques.
-            
-            Sur votre site associatif dédié au blobfish, vous pouvez trouver des informations sur l'habitat, le comportement et la conservation de cette espèce fascinante. Vous pouvez également y découvrir des photos et des vidéos de blobfish, ainsi que des récits d'expéditions de plongée en eaux profondes à la recherche de cette espèce rare.
-            
-            En tant qu'association dédiée à la préservation des écosystèmes marins, votre site met également en évidence les menaces qui pèsent sur les blobfish, notamment la surpêche et la pollution des océans. Vous pouvez y trouver des conseils pour aider à protéger les habitats marins, ainsi que des informations sur les initiatives de conservation et les programmes de recherche pour protéger le blobfish et d'autres espèces de poissons en danger.
-            
-            En somme, votre site associatif de blobfish est une excellente ressource pour les personnes intéressées par cette espèce étrange et fascinante, ainsi que pour ceux qui souhaitent en savoir plus sur la conservation des écosystèmes marins.
-        </p>
-      </div>
     </main>
+    <form>
+      <div class="first">
+        <div class="name">
+          <label for="name">Nom :</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Entrez votre nom ici..."
+          />
+        </div>
+        <div class="address">
+          <label for="adress">Adresse :</label>
+          <input
+            type="text"
+            id="adress"
+            name="address"
+            placeholder="Entrez votre addresse ici..."
+          />
+        </div>
+        <div class="mail">
+          <label for="mail">Mail :</label>
+          <input
+            type="email"
+            id="mail"
+            name="mail"
+            placeholder="Entrez votre mail ici..."
+          />
+        </div>
+        <div class="telephone">
+          <label for="tel">Téléphone :</label>
+          <input
+            type="tel"
+            id="tel"
+            name="tel"
+            placeholder="Entrez votre téléphone ici..."
+          />
+        </div>
+        <div class="comment">
+          <label for="comment">Commentaire :</label>
+          <textarea
+            name="comment"
+            id="comm"
+            cols="50"
+            rows="10"
+            placeholder="Ecrivez votre texte ici..."
+          ></textarea>
+          <input type="submit" value="Envoyer" id="send"/>
+        </div>
+      </div>
+    </form>
   </body>
 </html>

@@ -1,11 +1,13 @@
 * {
   margin: 0;
-  text-align: center;
+  padding: 0;
+
 }
 body {
   background: linear-gradient(#0f2027, #203a43, #2c5364);
   background-size: cover;
   background-repeat: no-repeat;
+  text-align: center;
 }
 
 #blob {
@@ -31,10 +33,10 @@ h1, h2 {
 
 .text {
 width: 90%;
-margin: auto;
-  font-size: 2rem;
-  font-family: "Oswald", sans-serif;
-  text-align: left;
+margin: 50px auto;
+font-size: 2rem;
+font-family: "Oswald", sans-serif;
+text-align: left;
 }
 
 .fa-hand-holding-heart {
@@ -118,3 +120,48 @@ td, th {
     border: 2px solid black;
     padding: 10px 10px;
 }
+
+form{
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    font-family: "Oswald", sans-serif;
+    align-items:center;
+    margin-bottom: 100px;
+}
+
+.name, .address, .mail, .telephone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 40%;
+}
+
+input, textarea{
+    padding: 10px 10px;
+    border-radius: 15px;
+    font-family: "Oswald", sans-serif;
+    border: none;
+    width: 70%;
+}
+
+.comment{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 30px;
+}
+
+#send{
+    width: 50%;
+}
+
